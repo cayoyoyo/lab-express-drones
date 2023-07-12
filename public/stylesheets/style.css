@@ -4,5 +4,98 @@ body {
 }
 
 a {
+  text-decoration: none;
+  margin: 10px; 
+  font-size: 15px;
+  display: inline-block;
+  padding: 5px 5px;
   color: #00b7ff;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+
+
+.container {
+  background-image: url("/images/drones.webp");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+h2 {
+  color: #00b7ff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.drone {
+  width: 300px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.drone h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.drone p {
+  margin: 5px 0;
+}
+
+.drone .button-container {
+  margin-top: 10px;
+}
+
+.drone .edit-button {
+  margin-right: 10px;
+  background-color: #00b7ff;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.drone .delete-button {
+  background-color: red;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.create {
+  margin-top: 20px;
+}
+
+
+.create label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.create button {
+  display: inline-block;
+  background-color: #00b7ff;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
 }
